@@ -1,5 +1,5 @@
 function [ Aout, xt, error, time] = SNMF_NiPALM(y,n_epochs, tau, r, Ain, xin)
-% Implement inertial PALM for sparse non-negative matrix factorization
+% Implement generalized inertial PALM for sparse non-negative matrix factorization
 %      argmin_{A,X} \|Y - AX\|_F^2 
 %      s.t. \|A_k\|_0 <= tau \forall k, A_{i,j} >=0,  X_{i,j} >= 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
