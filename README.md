@@ -1,5 +1,5 @@
 # NiPALM-Algorithm
-Demo for ``A General Inertial Type Proximal Alternating Linearized Minimization Method for Nonconvex Nonsmooth Problems''
+Demo for ``A generalized inertial proximal alternating linearized minimization method for nonconvex nonsmooth problems''
 
 # Reference
 Qingsong Wang, Deren Han. A generalized inertial proximal alternating linearized minimization method for
