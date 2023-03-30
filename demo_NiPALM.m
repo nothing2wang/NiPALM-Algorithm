@@ -41,7 +41,7 @@ set(gcf,'papersize',output_size/resolution-[2.65 2.195]);
 im = eigenfaces(Aout01);
 imagesc(abs(im)); % colormap gray
 set(gca,'XTick',[], 'YTick', [])
-% pdfname = sprintf('snmf_orl_s_eigenface_saga.pdf');
+% pdfname = sprintf('snmf_orl_s_eigenface.pdf');
 % print(pdfname, '-dpdf');
 %%%%%% %%%%%% %%%%%% %%%%%% %%%%%%
 epochs = n_epochs;
